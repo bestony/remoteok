@@ -1,11 +1,11 @@
 <div class='book-archive'>
   <!-- Title -->
   <% if(is_archive()){ %>
-    <h2>Archives</h2>
+    <h2>归档</h2>
   <% } else if(is_category()) { %>
-    <h2>Categories</h2>
+    <h2>目录</h2>
   <% } else if(is_tag()) { %>
-    <h2>Tags</h2>
+    <h2>标签</h2>
   <% } %>
 
   <% if(is_current('archives')) { %>
