@@ -1,0 +1,66 @@
+@import 'variables';
+
+.container {
+  height: 100%;
+}
+
+.columns {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: $font-size-base;
+}
+
+.book-container {
+  height: 100%;
+
+  @media all and (min-width: $pc-media) {
+    padding: 2rem 3rem;
+  }
+  @media all and (max-width: $pcs-media) {
+    padding: 0 1rem;
+  }
+
+  font-family: 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans', sans-serif;
+}
+
+.book-content {
+  margin-left: 0.4rem;
+
+  @import '_partial/post';
+}
+
+a {
+  color: $book-link-color;
+}
+
+a:visited {
+  color: $book-link-visited-color;
+}
+
+a:hover {
+  color: $book-link-hover-color;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+@import '_partial/navbar';
+@import '_partial/toc';
+@import '_partial/sidebar';
+@import '_partial/comments';
+@import '_common/highlight/highlight.scss'

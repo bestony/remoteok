@@ -1,0 +1,28 @@
+$book-primary-color: #004ed0;
+$book-primary-link-color: rgb(47, 47, 47);
+$book-primary-link-hover-color: rgb(128, 128, 128);
+$book-link-color: #004ed0;
+$book-link-visited-color: #7170db;
+$book-link-hover-color: rgb(109, 109, 109);
+$border-color: #ddd;
+
+// font size
+$font-size-base           : 1rem;
+$font-size-min            : .625rem;
+$font-size-smallest       : .75rem;
+$font-size-smaller        : .8125rem;
+$font-size-small          : .875rem;
+$font-size-medium         : 1rem;
+$font-size-large          : 1.125rem;
+$font-size-larger         : 1.25rem;
+$font-size-largest        : 1.5rem;
+$font-size-max            : 1.75rem;
+
+$pc-media:960px;
+$pcs-media:959px;
+
+// code highlight
+$code-font-family         : consolas, Menlo, monospace;
+$code-border-radius       : 3px;
+$code-foreground          : #555;
+$code-background          : #eee;
