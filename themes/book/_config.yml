@@ -12,9 +12,9 @@ codeblock:
 
 comments:
   utterances:
-    enable: false
-    user: # your github user name
-    repo: # your github repo name
+    enable: true
+    user: bestony
+    repo: remoteok
     theme: github-light # github-light | github-dark | github-dark-orange | icy-dark | dark-blue | photon-dark
   disqus:
     enable: false
