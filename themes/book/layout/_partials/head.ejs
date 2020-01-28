@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
 
-    <!-- Noto Sans TC -->
-    <link href="https://fonts.loli.net/css?family=Noto+Sans+TC" rel="stylesheet">
     <!-- Noto Sans SC -->
     <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
     <!-- Noto Sans -->
@@ -35,7 +33,11 @@
     <!-- tocbot -->
     <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
-    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<%= config.title %>">
+    <meta property="og:description" content="<%= config.description %>">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
 
     <%- partial('_lib/google-analytics') %>
     <%- partial('_lib/zooming-image') %>

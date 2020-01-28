@@ -29,4 +29,4 @@ comments:
     labels: 'gitalk' # GitHub issue labels
     distractionFreeMode: true
 
-google_analytics: # UA-XXXXX-Y
+google_analytics: UA-47834775-26
