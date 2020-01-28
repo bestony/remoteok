@@ -12,7 +12,7 @@ codeblock:
 
 comments:
   utterances:
-    enable: true
+    enable: false
     user: bestony
     repo: remoteok
     theme: github-light # github-light | github-dark | github-dark-orange | icy-dark | dark-blue | photon-dark
@@ -20,13 +20,13 @@ comments:
     enable: false
     shortname: # your disqus shortname
   gitalk:
-    enable: false
-    githubID: # your github id
-    repo: # GitHub repository e.g. kaiiiz.github.io
-    ClientID: # GitHub Application Client ID
-    ClientSecret: # GitHub Application Client Secret
-    adminUser: # GitHub repository owner and collaborators
-    labels: 'gitalk' # GitHub issue labels
+    enable: true
+    githubID: bestony
+    repo: remoteok
+    ClientID: 48611b44eae2c3d4588d
+    ClientSecret: 4b3d21346944e218fd91697248ced477c8e5f1ac
+    adminUser: bestony
+    labels: website
     distractionFreeMode: true
 
 google_analytics: UA-47834775-26
