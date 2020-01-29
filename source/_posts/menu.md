@@ -22,6 +22,7 @@ title: menu
 	- [远程团队代码管理工具](/code-management)
 	- [远程团队设计管理工具](/design-management)
 	- [远程团队会议工具](/meeting-tools)
+	- [远程团队文档协作工具](/document-tool)
 - [访谈篇](/interview)
 	- [Tower 团队 48 个月远程实践](/interview-by-tower)
 	- [从 300 到 300 万，一个远程外包团队的发展历程和经验](/interview-by-deepdevelop)

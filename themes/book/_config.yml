@@ -20,7 +20,7 @@ comments:
     enable: false
     shortname: # your disqus shortname
   gitalk:
-    enable: true
+    enable: false
     githubID: bestony
     repo: remoteok
     ClientID: 48611b44eae2c3d4588d
