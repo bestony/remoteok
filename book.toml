@@ -1,0 +1,10 @@
+[book]
+title = "Remote OK - 远程工作也能行"
+description = "Remote OK 是一本写于 2020 年初的电子书，因为被 COVID"
+authors = ["白宦成"]
+language = "zh-Hans"
+multilingual = false
+src = "src"
+
+[build]
+create-missing = true
