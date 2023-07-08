@@ -17,10 +17,13 @@ jobs:
         with:
           mdbook-version: 'latest'
       - run: mdbook build
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: upload to qcloud
+        uses: TencentCloud/cos-action@v1
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PWD }}
-          local-dir: ./book/
+          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          cos_bucket: ${{ secrets.TENCENT_CLOUD_BUCKET }}
+          cos_region: ap-guangzhou
+          local_path: book
+          remote_path: /
+          clean: true
