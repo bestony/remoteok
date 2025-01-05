@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="zh-Hans" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>远程团队会议工具 - Remote OK - 远程工作也能行</title>
+
+
+        <!-- Custom HTML head -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9877802927933140"
+             crossorigin="anonymous"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN1VHFG26G"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-VN1VHFG26G');
+        </script>
+
+        <meta name="description" content="Remote OK 是一本写于 2020 年初的电子书，因为被 COVID">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="perface.html"><strong aria-hidden="true">1.</strong> 前言</a></li><li class="chapter-item expanded "><a href="theory.html"><strong aria-hidden="true">2.</strong> 理论篇</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="what-is-remote.html"><strong aria-hidden="true">2.1.</strong> 远程工作是什么</a></li><li class="chapter-item expanded "><a href="jobs.html"><strong aria-hidden="true">2.2.</strong> 什么样的工种适合远程工作</a></li><li class="chapter-item expanded "><a href="value-to-employers.html"><strong aria-hidden="true">2.3.</strong> 远程工作对于雇主的价值</a></li><li class="chapter-item expanded "><a href="value-to-employees.html"><strong aria-hidden="true">2.4.</strong> 远程工作对于雇员的价值</a></li><li class="chapter-item expanded "><a href="compared-with-outsource-project.html"><strong aria-hidden="true">2.5.</strong> 远程工作和外包的区别</a></li><li class="chapter-item expanded "><a href="some-questions.html"><strong aria-hidden="true">2.6.</strong> 采用远程工作需要考虑的问题</a></li><li class="chapter-item expanded "><a href="disadvantage.html"><strong aria-hidden="true">2.7.</strong> 远程工作的劣势</a></li></ol></li><li class="chapter-item expanded "><a href="experience.html"><strong aria-hidden="true">3.</strong> 经验篇</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="experience-by-employees.html"><strong aria-hidden="true">3.1.</strong> 雇员远程工作经验</a></li><li class="chapter-item expanded "><a href="experience-by-employers.html"><strong aria-hidden="true">3.2.</strong> 雇主远程工作经验</a></li></ol></li><li class="chapter-item expanded "><a href="tools.html"><strong aria-hidden="true">4.</strong> 工具篇</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="workflows.html"><strong aria-hidden="true">4.1.</strong> 远程团队工作流</a></li><li class="chapter-item expanded "><a href="project-management.html"><strong aria-hidden="true">4.2.</strong> 远程团队项目管理工具</a></li><li class="chapter-item expanded "><a href="task-management.html"><strong aria-hidden="true">4.3.</strong> 远程团队任务管理工具</a></li><li class="chapter-item expanded "><a href="communication-tools.html"><strong aria-hidden="true">4.4.</strong> 远程团队沟通工具</a></li><li class="chapter-item expanded "><a href="time-management.html"><strong aria-hidden="true">4.5.</strong> 远程团队时间管理工具</a></li><li class="chapter-item expanded "><a href="code-management.html"><strong aria-hidden="true">4.6.</strong> 远程团队代码管理工具</a></li><li class="chapter-item expanded "><a href="design-management.html"><strong aria-hidden="true">4.7.</strong> 远程团队设计管理工具</a></li><li class="chapter-item expanded "><a href="meeting-tools.html"><strong aria-hidden="true">4.8.</strong> 远程团队会议工具</a></li><li class="chapter-item expanded "><a href="document-tool.html"><strong aria-hidden="true">4.9.</strong> 远程团队文档协作工具</a></li></ol></li><li class="chapter-item expanded "><a href="interview.html"><strong aria-hidden="true">5.</strong> 访谈篇</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="interview-by-tower.html"><strong aria-hidden="true">5.1.</strong> Tower 团队 48 个月远程实践</a></li><li class="chapter-item expanded "><a href="interview-by-deepdevelop.html"><strong aria-hidden="true">5.2.</strong> 从 300 到 300 万，一个远程外包团队的发展历程和经验</a></li><li class="chapter-item expanded "><a href="interview-by-deepdevelop-1.html"><strong aria-hidden="true">5.3.</strong> 从 300 万到 1000 万,DeepDevelop 外包业务第二阶段总结</a></li></ol></li><li class="chapter-item expanded "><a href="reference.html"><strong aria-hidden="true">6.</strong> 资料篇</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">6.1.</strong> 推荐书籍</a></li><li class="chapter-item expanded "><a href="podcast.html"><strong aria-hidden="true">6.2.</strong> 推荐播客</a></li><li class="chapter-item expanded "><a href="website.html"><strong aria-hidden="true">6.3.</strong> 推荐网站</a></li></ol></li><li class="chapter-item expanded "><a href="conclusion.html"><strong aria-hidden="true">7.</strong> 结语</a></li><li class="chapter-item expanded "><a href="changelog.html"><strong aria-hidden="true">8.</strong> 更新记录</a></li><li class="chapter-item expanded "><a href="about-me.html"><strong aria-hidden="true">9.</strong> 关于我</a></li></ol>
+                <ol class="chapter">
+                    <li class="chapter-item expanded "><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2022003750号-4</a></li>
+                </ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Remote OK - 远程工作也能行</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="会议工具"><a class="header" href="#会议工具">会议工具</a></h1>
+<p>团队协作难免会遇到需要进行多对多沟通的场景。传统的群聊无法满足我们对于信息传递的需求，因此，一些必要的会议工具可以帮助你更好的完成自己的工作。</p>
+<h2 id="总览"><a class="header" href="#总览">总览</a></h2>
+<p>|名称|免费|桌面投屏|外部参会|Slogan|
+||||||
+|QQ群视频|✅|✅|❌|无|
+|微信群视频|✅|❌|❌|无|
+|Zoom|✅|✅|✅|Video Conferencing, Web Conferencing, Webinars, Screen Sharing|
+|腾讯会议|✅|✅|✅|云会议·随时随地 高清音视频会议|
+|飞书会议|✅|✅|❌|流畅可协同的音视频会议|
+|小鱼易连|✅|✅|✅|小鱼易连，人人都会用的云视频会议|
+|华为 WeLink|✅|✅|❌|更懂企业的智能工作平台|</p>
+<h2 id="工具清单"><a class="header" href="#工具清单">工具清单</a></h2>
+<h3 id="qq群视频"><a class="header" href="#qq群视频">QQ群视频</a></h3>
+<p>对于一些使用 QQ 群进行协作的团队来说，QQ 群视频已经可以满足协作的需求。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>QQ 群视频</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>50 人观看 &amp; 6 人同时发言</td></tr>
+<tr><td>价格</td><td>免费</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>是否支持外部参会者</td><td>否</td></tr>
+</tbody></table>
+</div>
+<h3 id="微信群视频"><a class="header" href="#微信群视频">微信群视频</a></h3>
+<p>微信群是现在不少企业和团队的协作方式，微信群同样也是一个视频会议的可选项。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>微信群视频</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>9 人同时在线</td></tr>
+<tr><td>价格</td><td>免费</td></tr>
+<tr><td>投屏</td><td>不支持</td></tr>
+<tr><td>是否支持外部参会者</td><td>否</td></tr>
+</tbody></table>
+</div>
+<h3 id="zoomcomcn"><a class="header" href="#zoomcomcn">Zoom.com.cn</a></h3>
+<p><img src="https://postimg.aliavv.com/mbp/05izm.png" alt="" /></p>
+<p>Zoom 是来自硅谷的初创公司的产品，近年来，在社会上广受好评，提供了高质量和免费的视频服务。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>Zoom</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>免费版限制100人</td></tr>
+<tr><td>价格</td><td>有免费版</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>注册</td><td>无限制</td></tr>
+<tr><td>是否支持外部参会者</td><td>是</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>Zoom 免费版套餐
+主持无限次数的会议（每次主持一场会议）
+1对1会议没有时间限制
+会议时长限制为40分钟，人数为3到100人</p>
+</blockquote>
+<h3 id="腾讯会议"><a class="header" href="#腾讯会议"><a href="https://meeting.qq.com/">腾讯会议</a></a></h3>
+<p><img src="https://postimg.aliavv.com/mbp/kkpgb.png" alt="" /></p>
+<p>腾讯会议是腾讯云提供的在线会议解决方案，支持手机、电脑、平板、Web一键入会，支持在小程序中参与会议。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>腾讯会议</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>免费版限制25人</td></tr>
+<tr><td>价格</td><td>有免费版</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>注册</td><td>无限制</td></tr>
+<tr><td>是否支持外部参会者</td><td>是</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>腾讯会议免费版套餐
+不限次数一对一会议
+限时45分钟的多人群组会议
+最高可达25名参会者
+支持小程序加入会议</p>
+</blockquote>
+<h3 id="飞书会议"><a class="header" href="#飞书会议"><a href="https://www.feishu.cn/product/video">飞书会议</a></a></h3>
+<p>飞书作为头条系主推的工作场景下的协作应用，也提供了视频会议的能力。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>腾讯会议</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>免费版限制 10 人</td></tr>
+<tr><td>价格</td><td>有免费版</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>注册</td><td>无限制</td></tr>
+<tr><td>是否支持外部参会者</td><td>否</td></tr>
+</tbody></table>
+</div>
+<h3 id="小鱼易连"><a class="header" href="#小鱼易连"><a href="https://www.xylink.com/product/cloud">小鱼易连</a></a></h3>
+<p><img src="https://postimg.aliavv.com/mbp/ou88o.png" alt="" /></p>
+<p>小鱼易连在一些小的团队中也会使用，我曾在和一个客户沟通的时候使用过小鱼易连，使用体验接近 Zoom。</p>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>小鱼易联</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>免费版限制 3 人</td></tr>
+<tr><td>价格</td><td>有免费版</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>注册</td><td>无限制</td></tr>
+<tr><td>是否支持外部参会者</td><td>是</td></tr>
+</tbody></table>
+</div>
+<h3 id="华为云-welink"><a class="header" href="#华为云-welink"><a href="https://www.huaweicloud.com/product/welink.html">华为云 WeLink</a></a></h3>
+<div class="table-wrapper"><table><thead><tr><th>名字</th><th>腾讯会议</th></tr></thead><tbody>
+<tr><td>人数限制</td><td>基础版套餐并发 10 人</td></tr>
+<tr><td>价格</td><td>有免费版</td></tr>
+<tr><td>投屏</td><td>支持</td></tr>
+<tr><td>注册</td><td>无限制</td></tr>
+<tr><td>是否支持外部参会者</td><td>否</td></tr>
+</tbody></table>
+</div>
+<h2 id="总结"><a class="header" href="#总结">总结</a></h2>
+<p>会议工具有很多，你需要根据自己的使用习惯、使用场景来进行选择。我个人用的比较多的是 Zoom 和 腾讯会议，Zoom 有些时候可能会无法在境内访问，这时候，腾讯会议是一个很好的替代品。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="design-management.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="document-tool.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="design-management.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="document-tool.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
